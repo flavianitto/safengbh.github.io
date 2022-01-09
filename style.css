@@ -1,0 +1,15 @@
+#tela{
+  background-color: #e5e5e5;
+}
+#logo{
+  display: ruby;
+  margin-top: 10px;
+  margin-left: center;
+  margin-right: center;
+  width: auto;
+  height: 5%;
+  border-bottom-style: outset;
+  border-bottom-width: 70%;
+  border-bottom-color: black;
+
+}
