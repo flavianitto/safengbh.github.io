@@ -1,6 +1,32 @@
 <!DOCTYPE html>
 <html id="tela">
   <head>
+    <script>
+        function load() {
+            fetch('./data.json')
+                .then(response => response.json())
+                .then(data => {
+                    data.forEach((item) => {
+                        var cidade = document.createElement('h1');
+                        var bairro = document.createElement('h3');
+                        var criminalidade = document.createElement('p');
+
+                        cidade.textContent = item.cidade;
+                        bairro.textContent = item.bairro;
+                        criminalidade.textContent = item.criminalidade;
+
+                        document.getElementById('container').appendChild(cidade)
+                        document.getElementById('container').appendChild(bairro)
+                        document.getElementById('container').appendChild(criminalidade)
+
+                    });
+                    console.log(data);
+
+                });
+        }
+
+        load();
+    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>replit</title>
