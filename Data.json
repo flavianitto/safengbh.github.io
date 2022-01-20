@@ -1,0 +1,17 @@
+[
+    {
+        "cidade": "São Paulo",
+        "bairro": "Sé",
+        "criminalidade": "Alta"
+    },
+    {
+        "cidade": "São Paulo",
+        "bairro": "Itaim",
+        "criminalidade": "Baixa"
+    },
+    {
+        "cidade": "São Paulo",
+        "bairro": "Itaim",
+        "criminalidade": "Baixa"
+    }
+]
