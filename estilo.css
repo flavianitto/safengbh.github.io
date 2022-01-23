@@ -7,3 +7,65 @@
     font-weight: bold;
     margin: 0 2rem;
 }
+
+h2 {
+    font-size: 1rem;
+    margin-top: 2.5rem;
+}
+
+.conteudo {
+    margin: 0 2rem;
+    font-size: 1rem;    
+}
+
+.texto {
+    border-left: 3px solid #041A25;
+    border-width: 5px;
+    padding-left: 20px;
+    text-align: justify;    
+}
+
+.conteudo__text{
+    margin-top: 5rem;
+}
+.conteudo__text h2{
+    margin-top:0;
+}
+.conteudo__buttons{
+    display:flex;
+    margin-top:5rem;
+    justify-content: center;
+    gap:2rem;
+
+}
+
+svg {
+    width: 15px;
+    margin-right: 10px;    
+}
+
+.btnBranco {
+    color: #041A25;
+    background: #fff;
+    border: 1px solid #041A25;
+    border-radius: 5px;
+    font-size: 10pt;
+    font-weight: bold;
+    padding: 0.5rem 2rem; 
+    margin: 1.2rem 2rem; 
+    position:fixed;
+    right:0;
+    bottom:0;
+}
+
+.btnEscuro {
+    color: #fff;
+    background: #041A25;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 18.8rem;
+    font-size: 0.8rem;
+    text-align: left;
+    font-weight: bold;
+}
