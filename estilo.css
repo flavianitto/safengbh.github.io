@@ -11,11 +11,13 @@
 h2 {
     font-size: 1.2rem;
     margin-top: 2.5rem;
+    color: #041A25;
 }
 
 .conteudo {
     margin: 0 2rem;
-    font-size: 1rem;    
+    font-size: 1rem; 
+    color: #041A25;   
 }
 
 .texto {
@@ -41,7 +43,7 @@ h2 {
 }
 
 .conteudo__grafico {
-    text-align: center;
+    text-align: center;    
 }
 
 svg {
@@ -77,6 +79,7 @@ svg {
     position: fixed;
     right: 0;
     bottom: 0;
+    cursor: pointer;
 }
 
 .voltar {
@@ -95,6 +98,7 @@ svg {
     position: fixed;
     right: 0;
     bottom: 0;
+    cursor: pointer;    
 }
 
 .btnConsulta {
@@ -107,4 +111,5 @@ svg {
     font-size: 0.8rem;
     text-align: left;
     font-weight: bold;
+    cursor: pointer;
 }
