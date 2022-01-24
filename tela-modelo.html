@@ -25,14 +25,24 @@
         <p class="texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At facilis sint obcaecati, sunt
             voluptate, reprehenderit consequuntur architecto soluta quam explicabo doloremque impedit voluptas?
             Reprehenderit exercitationem aliquam fuga assumenda quae ullam?</p>
-        <div class="conteudo__grafico" id="imagem">
-            <img draggable="false" src="./graficos/fdp_roubo.png" alt="roubo">
-            <img draggable="false" src="./graficos/fdp_estupro.png" alt="estupro">
-            <img draggable="false" src="./graficos/fdp_homicidio.png" alt="homicidio">
-            <img draggable="false" src="./graficos/fdp_acidente.png" alt="acidente">
-        </div>
+        <br>        
+        <p>Selecione a subprefeitura:</p>
+        <select class="seletor" name="selregiaoM" id="selregiaoM">
+          <option class="opcao" value="aricanduva" selected>Aricanduva</option>
+            <option class="opcao" value="butantan">Butantã</option>
+        </select>
+  
+        <p>Selecione a natureza da criminalidade:</p>
+        <select class="seletor" name="selcriminalidade" id="selcrimM">
+            <option class="opcao" value="roubo" selected>Roubo</option>
+            <option class="opcao" value="estupro">Estupro</option>
+            <option class="opcao" value="homicidio">Homicídio</option>
+            <option class="opcao" value="acidente">Acidente</option>          
+        </select>        
     </div>
-    <a href="./index.html"><button class="btnBranco">Voltar</button></a>
+    <a href="./index.html"><button class="btnBranco voltar">Voltar</button></a>
+    <button class="btnEscuro" id="btnbuscarM" onclick="buscarModelo()">Buscar</button>
+
 </body>
 
 </html>
