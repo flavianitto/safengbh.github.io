@@ -1,22 +1,50 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Safe Neighborhood</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Safe Neighborhood</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="estilo.css">
-    <script src="script.js" defer></script>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="estilo.css">
+  <script src="script.js" defer></script>
 </head>
+
 <body>
-    <div class="titulo">        
-        <h1>Safe Neighborhood</h1>
+  <div class="titulo">
+    <h1>Safe Neighborhood</h1>
+  </div>
+  <div class="conteudo">
+    <h2>Sobre o projeto</h2>
+    <p class="texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur nostrum excepturi quae,
+      quas sapiente possimus delectus. Atque in ipsa debitis maiores velit quos, quis iusto porro provident vero
+      dignissimos laborum.</p>
+    <div class="conteudo__text">
+      <h2>Buscar dados de um bairro da cidade de São Paulo</h2>
+      <p>Selecione a subprefeitura:</p>
+      <select class="seletor" name="selregiao" id="selregiao">
+          <option class="opcao" value="tatuape">Tatuapé</option>
+          <option class="opcao" value="mooca">Mooca</option>
+          <option class="opcao" value="se">Sé</option>
+          <option class="opcao" value="vmariana">Vila Mariana</option>
+      </select>
+
+      <p>Selecione a natureza da criminalidade:</p>
+      <select class="seletor" name="selcriminalidade" id="selcriminalidade">
+          <option class="opcao" value="roubo">Roubo</option>
+          <option class="opcao" value="rouboveic">Roubo de veículo</option>
+          <option class="opcao" value="estupro">Estupro</option>
+      </select>
     </div>
+  </div>
+  <a href="./index.html"><button class="btnBranco voltar">Voltar</button></a>
+  <a href="./tela-grafico-crimes.html"><button class="btnEscuro">Buscar</button></a>
 </body>
+
 </html>

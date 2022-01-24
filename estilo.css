@@ -9,7 +9,7 @@
 }
 
 h2 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-top: 2.5rem;
 }
 
@@ -28,20 +28,41 @@ h2 {
 .conteudo__text{
     margin-top: 5rem;
 }
+
 .conteudo__text h2{
     margin-top:0;
 }
+
 .conteudo__buttons{
     display:flex;
     margin-top:5rem;
     justify-content: center;
     gap:2rem;
+}
 
+.conteudo__grafico {
+    text-align: center;
 }
 
 svg {
     width: 15px;
     margin-right: 10px;    
+}
+
+.seletor {
+    width: 100%;
+    height: 2.5rem;
+    border-radius: 8px;    
+    padding: 0 0.8rem;
+    font-size: 10pt;
+}
+
+.opcao {
+    color: #041A25;
+    background: #fff;
+    height: 50px;
+    margin: 5px;
+    padding: 2rem 5px 2rem;
 }
 
 .btnBranco {
@@ -53,12 +74,30 @@ svg {
     font-weight: bold;
     padding: 0.5rem 2rem; 
     margin: 1.2rem 2rem; 
-    position:fixed;
-    right:0;
-    bottom:0;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.voltar {
+    right: 8rem;
 }
 
 .btnEscuro {
+    color: #fff;
+    background: #041A25;
+    border: 1px solid #041A25;
+    border-radius: 5px;
+    font-size: 10pt;
+    font-weight: bold;
+    padding: 0.5rem 2rem; 
+    margin: 1.2rem 2rem; 
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.btnConsulta {
     color: #fff;
     background: #041A25;
     border: none;
