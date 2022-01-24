@@ -22,23 +22,24 @@
     </div>
     <div class="conteudo">
         <h2>Gráfico do modelo aplicado</h2>
-        <p class="texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. At facilis sint obcaecati, sunt
-            voluptate, reprehenderit consequuntur architecto soluta quam explicabo doloremque impedit voluptas?
-            Reprehenderit exercitationem aliquam fuga assumenda quae ullam?</p>
-        <br>        
+        <p class="texto">Utilizando o modelo de distribuição uniforme e conceitos de séries temporais, regressão linear
+            e a linguagem de programação Python, foi construído um script que lê os dados de arquivos .csv e plota
+            gráficos aplicando o modelo uniforme. É possível ver os dados obtidos das subprefeituras e também aplicar os
+            filtros de criminalidade.</p>
+        <br>
         <p>Selecione a subprefeitura:</p>
         <select class="seletor" name="selregiaoM" id="selregiaoM">
-          <option class="opcao" value="aricanduva" selected>Aricanduva</option>
+            <option class="opcao" value="aricanduva" selected>Aricanduva</option>
             <option class="opcao" value="butantan">Butantã</option>
         </select>
-  
+
         <p>Selecione a natureza da criminalidade:</p>
         <select class="seletor" name="selcriminalidade" id="selcrimM">
             <option class="opcao" value="roubo" selected>Roubo</option>
             <option class="opcao" value="estupro">Estupro</option>
             <option class="opcao" value="homicidio">Homicídio</option>
-            <option class="opcao" value="acidente">Acidente</option>          
-        </select>        
+            <option class="opcao" value="acidente">Acidente</option>
+        </select>
     </div>
     <a href="./index.html"><button class="btnBranco voltar">Voltar</button></a>
     <button class="btnEscuro" id="btnbuscarM" onclick="buscarModelo()">Buscar</button>
